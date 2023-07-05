@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- bootstrap cdn and script -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- google fonts cdn  -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@400;700&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css-link -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- font awesome cdn -->
+    <script
+      src="https://kit.fontawesome.com/46c3b9c56e.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Weather 2.0</title>
+  </head>
+
+  <body class="bg-img" style="background-image: url(images/mountains.jpg);">
+    <section id="top">
+
+      <!-- navbar  -->
+
+      <div class="container-fluid p-0">
+        <nav
+          class="navbar navbar-dark navbar-expand-lg"
+          style="background-color: #00ADB5"
+        >
+        <img
+        src="/Weather App/images/weather-app.png"
+        class="weather-logo"
+      />        
+          <a class="navbar-brand">
+            
+            <h2 class="header">Weather 2.0</h2></a
+          >
+          <p class="header-text">Every beginner's first project</p>
+          <button type="button" id="current-location" class="btn btn-dark"><i class="fa-solid fa-location-dot"></i> Current Location</button> 
+          <div class="myContainer">
+            
+              <input class="text" type="search" placeholder="Enter Location..."/>
+              <button id="search-btn" class="fa-sharp fa-solid fa-magnifying-glass"></button>
+            
+            </div>
+          
+        </nav>
+
+
+      </div>
+
+      <!-- content inside the box -->
+
+      <div class="content">
+        <h1 class="content-text">Weather in Text</h1>
+        <h2 class="temp">0<sup style="font-size: 15px;">°C</sup></h2>
+
+        <img class="weather-img" src="/Weather App/images/sun.png" alt="weather-img"/>
+        <p class="weather-condition" id="description">Sunny</p>
+
+        <img class="humidity-img" src="/Weather App/images/humidity.png" alt="humidity-img"/>
+        <p class="weather-condition" id="humidity">Humidity:88%</p>
+
+        <img class="wind-speed-img" src="/Weather App/images/storm.png" alt="wind-speed-img" />
+        <p class="weather-condition" id="wind-speed">Wind Speed:24KMPH</p>
+
+        <img class="pressure-img" src="/Weather App/images/feather.png" alt="pressure-img"/>
+        <p class="weather-condition" id="pressure">Pressure:441hPa</p>
+      
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>

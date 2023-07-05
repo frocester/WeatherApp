@@ -1,0 +1,115 @@
+body{
+    background-color: #C5DFF8;
+}
+
+#top
+{
+ 
+    height: 700px;
+} 
+
+.weather-logo
+{
+    width: 90px;
+    padding: 10px 10px;
+}
+
+.header
+{
+    line-height: 3;
+    text-align: left;
+    padding: 5px 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.header-text
+{
+    line-height: 4;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.navbar
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.btn-dark
+{
+    position: absolute;
+    right: 470px;
+}
+
+.myContainer
+{
+    background-color: #fff;
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    border-radius: 50px;
+    right: 50px;
+
+}
+
+.text
+{
+    margin: 10px auto 10px 20px;
+    outline: none;
+    border: none;
+    width: 330px;
+    background-color: #fff;
+    text-transform: capitalize;
+}
+
+.fa-magnifying-glass
+{
+    background-color: #00ADB5;
+    border: none;
+    outline: none;
+    padding: 6px;
+    margin: 6px;
+    border-radius: 50px;
+}
+
+.content
+{
+    width: 600px;
+    height: 500px;
+    /* background-color: #fff; */
+    margin: 70px auto;
+    text-align: left;
+    padding: 25px;
+    border-radius: 12px;
+    font-family: 'Merriweather', serif;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    backdrop-filter: blur(11.5px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 10px 30px 10px rgba(31, 38, 135, 0.37);
+}
+.content-text
+{
+    font-family: 'Merriweather', serif;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.temp
+{
+    padding-bottom: 10px;
+}
+
+.weather-img, .humidity-img, .wind-speed-img, .pressure-img
+{
+    width: 10%;
+    float: left;
+    margin-right: 20px;
+}
+
+.weather-condition
+{
+    line-height: 4;
+  
+}
