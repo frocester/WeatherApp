@@ -58,7 +58,7 @@ async function getWeather(city)
 async function getCurrentLocationName(latitude,longitude)
 {
     const api_key = "1aa742546f4648627b0802372e645d1f";
-    const url_1 = `http://api.openweathermap.org/geo/1.0/reverse?lat=${latitude}&lon=${longitude}&appid=${api_key}`;
+    const url_1 = `https://api.openweathermap.org/geo/1.0/reverse?lat=${latitude}&lon=${longitude}&appid=${api_key}`;
 
     const weather_data = await fetch(`${url_1}`).then(response => response.json());
 
